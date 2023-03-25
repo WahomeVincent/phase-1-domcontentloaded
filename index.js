@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    console.log("DOM content loaded")
+    let text = document.getElementById('text');
+    text.textContent = "This is really cool!"
 })
 
-console.log("This console log fires when the JS file has loaded. Before the DOMContentLoaded.")
